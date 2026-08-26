@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Chirp';
+    src: url(/Chirp-Font-X-Twitter-main/Chirp\ Regular.woff);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chirp";
+}
+
+body {
+    background: #000;
+    color: #fff;
+    min-height: 100vh;
+    width: 600;
+    max-width: 600;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover {
+    border-bottom: rgb(33, 215, 239);
+    padding-bottom: 10px;
+}
+
+.nav a.active {
+    border-bottom:2px solid rgb(33, 215, 239);
+    padding-bottom: 10px;
+}
+
+
+.nav {
+    display: flex;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
