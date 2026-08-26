@@ -18,6 +18,13 @@ body {
     width: 600;
     max-width: 600;
 }
+.nav {
+    display: flex;
+    border-bottom: 1px solid #7f7f7f;
+    justify-content: space-between;
+    padding: 20px;
+
+}
 
 .nav a {
     text-decoration: none;
@@ -25,21 +32,73 @@ body {
 }
 
 .nav a:hover {
-    border-bottom: rgb(33, 215, 239);
+    border-bottom:3px solid rgb(33, 215, 239);
     padding-bottom: 10px;
+}
+
+.nav:has(a:hover) a.active {
+    border-bottom: transparent;
 }
 
 .nav a.active {
-    border-bottom:2px solid rgb(33, 215, 239);
+    border-bottom:3px solid rgb(33, 215, 239);
     padding-bottom: 10px;
 }
 
-
-.nav {
-    display: flex;
-    border-bottom: 1px solid;
-    justify-content: space-between;
-    padding: 20px;
-
+.input-container {
+    border-bottom: 1px solid #7f7f7f;
+    padding: 20px 15px;
 }
 
+.input-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#input-box {
+    flex: 1;
+    resize: none;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+
+.input-icons {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#file-input {
+    display: none;
+}
+
+.post-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #adadad;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.emoji-icons
+{
+    text-decoration: none;
+    color: #fff;
+}

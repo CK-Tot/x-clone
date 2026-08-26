@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X Clone</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="nav">
         <a href="#" class="folowing active">For You</a>
         <a href="#" class="folowing">Following</a>
     </nav>
-    <div class="dashboard">
+    <main class="dashboard">
+        <div class="input-container">
+            <div class="input-content">
+                <div class="img-container">
+                     <img src="images/profile-pic.jpg" alt="Profile picture" class="profile-pic">
+                </div>
+                <textarea name="input-box" id="input-box" placeholder="What's happening?"></textarea>
+            </div>
+
+            <div class="input-icons">
+                <div class="icons">
+                    <input type="file" id="file-input" accept="image/*">
+                    <label for="file-input">
+                        <i class="fa-regular fa-images"></i>
+                    </label>
+                    <a href="#" class="emoji-icons"><i class="fa-regular fa-face-smile"></i></a>
+                </div>
+                <div class="btn-container">
+                    <button class="post-btn">Post</button>
+                </div>
+            </div>
+        </div>
         
-    </div>
+    </main>
     
 
 
