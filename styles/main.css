@@ -81,6 +81,12 @@ body {
     align-items: center;
 }
 
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
 #file-input {
     display: none;
 }
@@ -93,12 +99,80 @@ body {
     cursor: pointer;
 }
 
+.post-btn:hover {
+    background: #9d9c9c;
+}
+
 label {
     cursor: pointer;
 }
 
-.emoji-icons
+.icons a
 {
     text-decoration: none;
     color: #fff;
+}
+
+
+
+.fa-circle-check {
+    color: yellow;
+}
+
+.tweet-header {
+    display: flex;
+    gap: 10px;
+}
+
+.inner-container {
+    /* padding: 10px 20px; */
+}
+
+.user-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.feed-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.user-info span {
+    color: #adadad;
+}
+
+.tweet-content {
+    border-bottom: 1px solid #616161;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.tweet-txt-info {
+    margin-top: 8px;
+}
+
+.tweet-interactions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #b7b7b7;
+    padding: 0 10px;
+}
+
+.tweet-interactions span {
+    cursor: pointer;
+}
+
+
+.liked {
+    color: red;
+}
+
+.retweet {
+    color: green
 }

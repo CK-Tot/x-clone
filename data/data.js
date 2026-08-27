@@ -1,1 +1,1 @@
-export const xData = [{ }]
+export const xData = [{}]
