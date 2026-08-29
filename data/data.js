@@ -1,7 +1,7 @@
 export const xData = [
     {
         handle: '@ckthaengineer',
-        userName: 'CK Tot',
+        userName: 'CK Tot <i class="fa-solid fa-circle-check"></i>',
         profilePic: 'images/profile-pic.jpg',
         likes: 70,
         retweets: 40,

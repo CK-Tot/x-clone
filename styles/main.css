@@ -152,10 +152,6 @@ label {
     gap: 10px;
 }
 
-.inner-container {
-    /* padding: 10px 20px; */
-}
-
 .user-info {
     display: flex;
     gap: 5px;
