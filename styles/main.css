@@ -19,7 +19,7 @@ body {
 }
 
 .dashboard, nav {
-    width: 600px;
+    width: 700px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -72,7 +72,7 @@ body {
     border-radius: 50%;
 }
 
-#input-box {
+#input-box, .reply-input {
     flex: 1;
     resize: none;
     background: transparent;
@@ -115,7 +115,7 @@ body {
     font-size: 18px;
 }
 
-#file-input {
+#file-input, .reply-file-input {
     display: none;
 }
 
@@ -194,9 +194,23 @@ label {
 
 
 .liked {
-    color: red;
+    color: rgb(255, 0, 174);
 }
 
 .retweet {
     color: green
+}
+
+.tweet-reply {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+
+.reply-inner {
+    display: flex;
+    gap: 10px;
 }

@@ -7,7 +7,21 @@ export const xData = [
         retweets: 40,
         tweetTxt: 'Hello World',
         tweetImg: '/images/Profile-pic (15).jpg',
-        replies: [],
+        replies: [
+            {
+                handle: '@jessthebest',
+                userName: 'Jess Will',
+                profilePic: 'images/Profile-pic (2).jpg',
+                likes: 12,
+                retweets: 2,
+                replyTxt: "Hello CK!!",
+                tweetImg: '',
+                replies: [],
+                isLiked: false,
+                isRetweeted: false,
+                uuid: '4714d7ce-8823-4229-a286-50d85cfc582f'
+            }
+        ],
         isLiked: false,
         isRetweeted: false,
         uuid: '88f32190-9ebc-471f-831d-8043f0f2ae3a'
@@ -33,7 +47,34 @@ export const xData = [
         retweets: 0,
         tweetTxt: 'Coding partner? 🤓',
         tweetImg: '',
-        replies: [],
+        replies: [
+             {
+                handle: '@test',
+                userName: 'Jon Will',
+                profilePic: 'images/Profile-pic (20).jpg',
+                likes: 12,
+                retweets: 2,
+                replyTxt: "Hello CK 👋",
+                tweetImg: '',
+                replies: [],
+                isLiked: false,
+                isRetweeted: false,
+                uuid: 'd0785c23-1137-44e5-828f-35de9f0cb92f'
+            },
+            {
+                handle: '@test',
+                userName: 'Jon Will',
+                profilePic: 'images/Profile-pic (20).jpg',
+                likes: 12,
+                retweets: 2,
+                replyTxt: "Hello CK 👋",
+                tweetImg: '',
+                replies: [],
+                isLiked: false,
+                isRetweeted: false,
+                uuid: 'd0785c23-1137-44e5-828f-35de9f0cb92f'
+            }
+        ],
         isLiked: false,
         isRetweeted: false,
         uuid: '9f391e6d-eba0-428a-9170-becb1f819f60'
