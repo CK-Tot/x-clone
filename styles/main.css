@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Chirp';
-    src: url(/Chirp-Font-X-Twitter-main/Chirp\ Regular.woff);
+    src: url("/Chirp-Font-X-Twitter-main/Chirp Regular.woff") format("woff");
     font-weight: 400;
 }
 
@@ -84,10 +84,16 @@ body {
     color: #fff;
 }
 
-.tweet-box {
+.tweet-image-box {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.tweet-img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .img-preview img {
