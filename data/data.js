@@ -6,7 +6,7 @@ export const xData = [
         likes: 70,
         retweets: 40,
         tweetTxt: 'Hello World',
-        tweetImg: '/images/Profile-pic (15).jpg',
+        tweetImg: '',
         replies: [
             {
                 handle: '@jessthebest',
